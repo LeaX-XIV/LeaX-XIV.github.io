@@ -2,4 +2,4 @@ RewriteEngine On
 # Check for mime types commonly accepted by mobile devices
 RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC]
 RewriteCond %{REQUEST_URI} ^/$
-RewriteRule ^ http://192.168.1.121:3000/mobile%{REQUEST_URI} [R,L]
+RewriteRule ^ http://leax-xiv.github.io/mobile%{REQUEST_URI} [R,L]
